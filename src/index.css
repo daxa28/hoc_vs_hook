@@ -1,0 +1,40 @@
+* {
+  margin: 5px 0;
+  padding: 0 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.block {
+    border: 1px solid gray;
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input[type="search"] {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+.form-radio {
+  padding: 1rem 0;
+}
+.form-radio > *:last-child {
+  margin-left: 1rem;
+}
+
+li {
+  line-height: 1.6;
+  list-style-type: none;
+}
